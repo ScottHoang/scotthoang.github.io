@@ -1399,6 +1399,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding: 30px;
   }
 
+  .service-item ion-icon {
+	  color: gold;
+  }
+
   .service-icon-box {
     margin-bottom: 0;
     margin-top: 5px;
@@ -1879,8 +1883,4 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
-}
-
-ion-icon {
-	color: gold,
 }
