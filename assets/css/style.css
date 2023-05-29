@@ -1881,6 +1881,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
-/*ion-icon {*/
-	/*color: gold,*/
-/*}*/
+ion-icon {
+	color: gold,
+}
