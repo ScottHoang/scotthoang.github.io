@@ -1884,3 +1884,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/**
+ *  In-line link class
+ */
+
+.inline-link {
+  display: inline;
+  color: var(--orange-yellow-crayola);
+}
