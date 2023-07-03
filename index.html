@@ -177,6 +177,11 @@
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
+           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+
          <!--  <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
@@ -305,8 +310,8 @@
           - testimonials
 
         -->
-        
-        
+
+
         <!-- <section class="testimonials">
 
 
@@ -404,11 +409,11 @@
 
           </ul>
 
-        </section -->>
+        </section -->
 
 
 
-  
+
        <!--  <div class="modal-container" data-modal-container>
 
           <div class="overlay" data-overlay></div>
@@ -448,12 +453,12 @@
           </section>
 
         </div> -->
-    
-      
+
+
 
         <!--
           - clients
-        
+
         --->
        <!--  <section class="clients">
 
@@ -504,7 +509,7 @@
 
       </article>
 
-    
+
 
 
 
@@ -758,7 +763,98 @@
       </article>
 
 
+       <!--
+        - #PUBLICATIONS
+      -->
 
+
+      <article class="publications" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="timeline">
+
+          <!-- <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div> -->
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Revisiting Pruning at initialization through the lens of Ramanujan graph</h4>
+
+              <span>ICLR 2023 — Oral  [<a href="https://openreview.net/forum?id=uVcDssQff_&referrer=[the%20profile%20of%20Duc%20N.M%20Hoang](/profile?id=~Duc_N.M_Hoang1)" class="inline-link">link</a>]</span>
+
+              <p class="timeline-text">
+                Pruning at Initialization (PaI) in neural networks, which outperforms random pruning by identifying efficient subnetworks at the start, is gaining attention. However, the performance gap with post-training pruning remains. Our research interprets PaI using the Ramanujan Graph concept, highlighting a lack of correlation between highly sparse, connected networks and PaI's performance. We introduce the Iterative Mean Difference of Bound (IMDB) to relax the upper limit on the largest nontrivial eigenvalue of sparse networks' layers, and the Normalized Random Coefficient (NaRC) as a lower limit. Our analysis with these metrics shows that IMDB-conserving subnetworks perform better, and NaRC identifies regions with highly connected, sparse, non-trivial Ramanujan expanders.              
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AutoMARS: Searching to Compress Multi-Modality Recommendation Systems</h4>
+
+              <span>CIKM 2022 - Poster [<a href="https://dl.acm.org/doi/10.1145/3511808.3557242" class="inline-link">link</a>]  </span>
+
+              <p class="timeline-text">
+                Web applications use Recommendation Systems (RS) to manage consumer over-choice, with multi-modality inputs (e.g., user interaction, images, texts, rating scores) boosting performance. However, these demand more computational resources and storage. Real-world RS must balance time, space, and user experience budgets. Therefore, efficiently compressing multi-modality RS is vital. This paper introduces a compression method for multi-modality RS called Auto Multi-modAlity Recommendation System (AutoMARS). It uses neural architecture search and distillation to allocate resources based on the importance of input data in preserving recommendation efficacy. AutoMARS outperformed previous compression methods in tests on three different Amazon datasets, for instance, achieving a 20% accuracy increase and a 65% reduction over baselines on the Amazon Beauty dataset.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AutoCoG: A Unified Data-Model Co-Search Framework for Graph Neural Networks</h4>
+
+              <span>AutoML 2022 - Poster [<a href="https://proceedings.mlr.press/v188/hoang22a.html" class="inline-link">link</a>] </span>
+
+              <p class="timeline-text">
+                Neural architecture search (NAS) has demonstrated success in discovering promising architectures for vision or language modeling tasks, and it has recently been introduced to searching for graph neural networks (GNNs) as well. Despite the preliminary success, GNNs struggle in dealing with heterophily or low-homophily graphs where connected nodes may have different class labels and dissimilar features. To this end, we propose co-optimizing both the input graph topology and the model’s architecture topology simultaneously. That yields AutoCoG, the first unified data-model co-search NAS framework for GNNs. By defining a highly flexible data-model co-search space, AutoCoG is gracefully formulated as a principled bi-level optimization that can be end-to-end solved by the differentiable search methods. Experiments show AutoCoG achieves gains of up to 4% for Actor, 7.3% on average for Web datasets, 0.17% for CoAuthor-CS, and finally 5.4% for Wikipedia-Photo benchmarks.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MM-Hand: 3D-Aware Multi-Modal Guided Hand Generation for 3D Hand Pose Synthesis</h4>
+
+              <span>MM 2020 - Poster [<a href="https://dl.acm.org/doi/10.1145/3394171.3413555" class="inline-link">link</a>] </span>
+
+              <p class="timeline-text">
+                Estimating the 3D hand pose from a monocular RGB image is important but challenging. A solution is training on large-scale RGB hand images with accurate 3D hand keypoint annotations. However, it is too expensive in practice. Instead, we develop a learning-based approach to synthesize realistic, diverse, and 3D pose-preserving hand images under the guidance of 3D pose information. We propose a 3D-aware multi-modal guided hand generative network (MM-Hand), together with a novel geometry-based curriculum learning strategy. Our extensive experimental results demonstrate that the 3D-annotated images generated by MM-Hand qualitatively and quantitatively outperform existing options. Moreover, the augmented data can consistently improve the quantitative performance of the state-of-the-art 3D hand pose estimators on two benchmark datasets. The code will be available at https://github.com/ScottHoang/mm-hand. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">3M-POSE: MULTI-RESOLUTION, MULTI-PATH AND MULTI-OUTPT NEURAL ARCHITECTURE SEARCH FOR BOTTOM-UP POSE PREDICTION</h4>
+
+              <span>Master thesis [<a href="https://oaktrust.library.tamu.edu/handle/1969.1/195705" class="inline-link">link</a>] </span>
+
+              <p class="timeline-text">
+              Human pose estimation is a challenging computer vision task and often hinges on carefully handcrafted architectures. This paper aims to be the first to apply Neural Architectural Search (NAS) to automatically design a bottom-up, one-stage human pose estimation model with significantly lower computational costs and smaller model size than existing bottom-up approaches. Our framework dubbed 3M-Pose co-searches and co-trains with the novel building block of Early Escape Layers (EELs), producing native modular architectures that are optimized to support dynamic inference for even lower average computational cost. To flexibly explore the fine-grained spectrum between the performance and computational budget, we propose Dynamic Ensemble Gumbel Softmax (Dyn-EGS), a novel approach to sample micro and macro search spaces by allowing varying numbers of operators and inputs to be individually selected for each cell. We additionally enforce a computational constraint with a student-teacher guidance to avoid the trivial search collapse caused by the pursuit of lightweight models. Experiments demonstrate 3M-Pose to find models of drastically superior speed and efficiency compared to existing works, reducing computational costs by up to 93% and parameter size by up to 75% at the cost of minor loss in performance.
+ 
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+
+      </article>
 
 
       <!--
